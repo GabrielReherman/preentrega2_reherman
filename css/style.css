@@ -83,25 +83,7 @@ color: #840705;
 #SECCION3 h2{
   color: #840705;
 }
-#SECCION4 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-.propiedades1 {
-  overflow: hidden; 
-}
-.propiedades_1 img, .propiedades_2 img, .propiedades_3 img, .propiedades_4 img, .propiedades_5 img, .propiedades_6 img, .propiedades_7 img {
-  margin: 1%; 
-  box-sizing: border-box; 
-}
-.propiedades_1 img, .propiedades_3 img, .propiedades_5 img {
-  width: 30%; 
-  height: auto; 
-}
-.propiedades_2 img, .propiedades_4 img, .propiedades_6 img, .propiedades_7 img {
-  width: 10%; 
-  height: auto; 
-}
+
 section {
   margin-bottom: 50px;
 }
