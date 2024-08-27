@@ -1,0 +1,75 @@
+/* Estilo CONTENIDO PRINCIPAL */
+main {
+    padding: 30px;
+  }
+  
+  /* Estilo para la sección de propiedades destacadas */
+  
+  #SECCION2 h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: $color_letra_principal;
+  }
+  
+  h2 {
+    color: $color_letra_principal;
+  }
+  
+  #SECCION3 {
+    margin-bottom: 10px;
+    display: block;
+    background-color: aqua;
+  }
+  
+  #SECCION3 h2 {
+    color: $color_letra_principal;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    margin: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .image {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-overlay {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
