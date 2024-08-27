@@ -1,9 +1,9 @@
-/* Error: expected ";".
+ Error: expected ";".
  *   ,
  * 1 | @import "./utilidades/variables"
  *   |                                 ^
  *   '
- *   scss\styles.scss 1:33  root stylesheet */
+ *   scss\styles.scss 1:33  root stylesheet 
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
